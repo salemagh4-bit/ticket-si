@@ -5,7 +5,7 @@ import { FaCheck } from "react-icons/fa";
 import { FiArrowLeft } from "react-icons/fi";
 
 // export const serverRoute = "http://localhost:8080";
-export const serverRoute = "https://tic-6gfk.onrender.com";
+export const serverRoute = "https://ticket-se-wjpr.onrender.com";
 export const socket = io(serverRoute);
 const Home = () => {
   const navigate = useNavigate();
